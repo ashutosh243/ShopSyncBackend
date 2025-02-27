@@ -28,10 +28,11 @@ cloudinary_config();
 // creating connection to database
 connectDB();
 
-
-
 // mounting the path
 app.use('/images', express.static('upload/images'));
+
+
+
 
 // creating upload end points
 app.post("/upload", upload.single('product'), uploadImage);

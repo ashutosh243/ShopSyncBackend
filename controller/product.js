@@ -1,7 +1,7 @@
 const cloudinary = require('cloudinary');
 const product= require('../model/product');
 const path= require('path');
-
+const User=require('../model/user');
 
 
 const addproduct = async (req, res) => {
