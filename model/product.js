@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 const product=mongoose.model("product",{
     id:{
         type:Number,
